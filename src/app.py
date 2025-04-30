@@ -62,6 +62,7 @@ plt.title("Las 10 canciones más reproducidas en Spotify")
 plt.xlabel("Reproducciones (en miles de millones)")
 plt.ylabel("Canción")
 plt.tight_layout()
+plt.savefig('top10_spotify.png')
 plt.show()
 
 
